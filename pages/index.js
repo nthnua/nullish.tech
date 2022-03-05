@@ -15,7 +15,7 @@ export default function Home () {
       </Flex>
       <Spacer />
       <Heading alignSelf='center' justifySelf='center'>Hi there👋, welcome to
-        <NextLink href='/'>
+        <NextLink href='/' passHref>
           <Link>
             <Text color='#006981' display='inline'> Null</Text><Text color='#ADADAD' display='inline'>ish</Text>.tech
           </Link>
