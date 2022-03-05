@@ -11,14 +11,15 @@ export default function Home () {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Flex alignSelf='flex-start'>
-        <Image src='/nullish.svg' width='30' height='14' />
+        <Image src='/nullish.svg' alt='Nullish logo' width='30' height='14' />
       </Flex>
       <Spacer />
       <Heading alignSelf='center' justifySelf='center'>Hi there👋, welcome to
-
-        <Link>
-          <Text color='#006981' display='inline'> Null</Text><Text color='#ADADAD' display='inline'>ish</Text>.tech
-        </Link>
+        <NextLink href='/'>
+          <Link>
+            <Text color='#006981' display='inline'> Null</Text><Text color='#ADADAD' display='inline'>ish</Text>.tech
+          </Link>
+        </NextLink>
 
       </Heading>
       <Spacer />
