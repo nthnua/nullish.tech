@@ -11,16 +11,15 @@ export default function Home () {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Flex alignSelf='flex-start'>
-        <Image src='/nullish.svg' width='40' height='20' />
+        <Image src='/nullish.svg' width='30' height='14' />
       </Flex>
       <Spacer />
       <Heading alignSelf='center' justifySelf='center'>Hi there👋, welcome to
 
-        <NextLink href='/'>
-          <Link>
-            <Text color='#006981' display='inline'> Null</Text><Text color='#ADADAD' display='inline'>ish</Text>.tech
-          </Link>
-        </NextLink>
+        <Link>
+          <Text color='#006981' display='inline'> Null</Text><Text color='#ADADAD' display='inline'>ish</Text>.tech
+        </Link>
+
       </Heading>
       <Spacer />
       <Text>
@@ -28,9 +27,9 @@ export default function Home () {
         check these projects out:
       </Text>
       <HStack>
-        <NextLink href='https://wordy.nullish.tech' isExternal><Link>Wordy</Link></NextLink>
-        <NextLink href='https://mdn.nullish.tech' isExternal><Link>mdn</Link></NextLink>
-        <NextLink href='https://nuance.nullish.tech' isExternal><Link>nuance</Link></NextLink>
+        <Link href='https://wordy.nullish.tech' isExternal>wordy</Link>
+        <Link href='https://mdn.nullish.tech' isExternal>mdn</Link>
+        <Link href='https://nuance.nullish.tech' isExternal>nuance</Link>
       </HStack>
 
     </Flex>
