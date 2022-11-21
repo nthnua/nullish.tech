@@ -1,0 +1,23 @@
+{
+    "subject": "acct:nthnua@ioc.exchange",
+    "aliases": [
+      "https://ioc.exchange/@nthnua",
+      "https://ioc.exchange/users/nthnua"
+    ],
+    "links": [
+      {
+        "rel": "http://webfinger.net/rel/profile-page",
+        "type": "text/html",
+        "href": "https://ioc.exchange/@nthnua"
+      },
+      {
+        "rel": "self",
+        "type": "application/activity+json",
+        "href": "https://ioc.exchange/users/nthnua"
+      },
+      {
+        "rel": "http://ostatus.org/schema/1.0/subscribe",
+        "template": "https://ioc.exchange/authorize_interaction?uri={uri}"
+      }
+    ]
+  }
